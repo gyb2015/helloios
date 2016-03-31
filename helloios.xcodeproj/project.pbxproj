@@ -12,6 +12,7 @@
 		CE61ABC21CADB7F2001DC222 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE61ABC01CADB7F2001DC222 /* Main.storyboard */; };
 		CE61ABC41CADB7F2001DC222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE61ABC31CADB7F2001DC222 /* Assets.xcassets */; };
 		CE61ABC71CADB7F2001DC222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE61ABC51CADB7F2001DC222 /* LaunchScreen.storyboard */; };
+		CE61ABCF1CADB8CA001DC222 /* ViewSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE61ABCE1CADB8CA001DC222 /* ViewSecond.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CE61ABC31CADB7F2001DC222 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE61ABC61CADB7F2001DC222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE61ABC81CADB7F2001DC222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE61ABCE1CADB8CA001DC222 /* ViewSecond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewSecond.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +40,7 @@
 		CE61ABB01CADB7F2001DC222 = {
 			isa = PBXGroup;
 			children = (
-				CE61ABBB1CADB7F2001DC222 /* helloios */,
+				CE61ABBB1CADB7F2001DC222 /* Hello */,
 				CE61ABBA1CADB7F2001DC222 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,16 +53,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CE61ABBB1CADB7F2001DC222 /* helloios */ = {
+		CE61ABBB1CADB7F2001DC222 /* Hello */ = {
 			isa = PBXGroup;
 			children = (
 				CE61ABBC1CADB7F2001DC222 /* AppDelegate.swift */,
 				CE61ABBE1CADB7F2001DC222 /* ViewController.swift */,
 				CE61ABC01CADB7F2001DC222 /* Main.storyboard */,
+				CE61ABCE1CADB8CA001DC222 /* ViewSecond.swift */,
 				CE61ABC31CADB7F2001DC222 /* Assets.xcassets */,
 				CE61ABC51CADB7F2001DC222 /* LaunchScreen.storyboard */,
 				CE61ABC81CADB7F2001DC222 /* Info.plist */,
 			);
+			name = Hello;
 			path = helloios;
 			sourceTree = "<group>";
 		};
@@ -136,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE61ABBF1CADB7F2001DC222 /* ViewController.swift in Sources */,
+				CE61ABCF1CADB8CA001DC222 /* ViewSecond.swift in Sources */,
 				CE61ABBD1CADB7F2001DC222 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
